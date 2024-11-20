@@ -22,7 +22,6 @@ self.addEventListener('message', event => {
   }
 });
 
-  
   // Handle notification click event
   self.addEventListener('notificationclick', event => {
     console.log('Notification clicked:', event.notification);
